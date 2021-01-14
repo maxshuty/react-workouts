@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-workouts/static/css/main.5bb2c24d.chunk.css",
-    "main.js": "/react-workouts/static/js/main.a1e3f20f.chunk.js",
-    "main.js.map": "/react-workouts/static/js/main.a1e3f20f.chunk.js.map",
+    "main.css": "/react-workouts/static/css/main.bc81ad7c.chunk.css",
+    "main.js": "/react-workouts/static/js/main.e66fcfd8.chunk.js",
+    "main.js.map": "/react-workouts/static/js/main.e66fcfd8.chunk.js.map",
     "runtime-main.js": "/react-workouts/static/js/runtime-main.ef3ef0f0.js",
     "runtime-main.js.map": "/react-workouts/static/js/runtime-main.ef3ef0f0.js.map",
     "static/js/2.5e62a50e.chunk.js": "/react-workouts/static/js/2.5e62a50e.chunk.js",
     "static/js/2.5e62a50e.chunk.js.map": "/react-workouts/static/js/2.5e62a50e.chunk.js.map",
     "index.html": "/react-workouts/index.html",
-    "precache-manifest.bcf5014f67f1edb5c79a4ebd2889f3af.js": "/react-workouts/precache-manifest.bcf5014f67f1edb5c79a4ebd2889f3af.js",
+    "precache-manifest.df4caa37651f4b407fa7e11486995608.js": "/react-workouts/precache-manifest.df4caa37651f4b407fa7e11486995608.js",
     "service-worker.js": "/react-workouts/service-worker.js",
-    "static/css/main.5bb2c24d.chunk.css.map": "/react-workouts/static/css/main.5bb2c24d.chunk.css.map",
+    "static/css/main.bc81ad7c.chunk.css.map": "/react-workouts/static/css/main.bc81ad7c.chunk.css.map",
     "static/js/2.5e62a50e.chunk.js.LICENSE.txt": "/react-workouts/static/js/2.5e62a50e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ef3ef0f0.js",
     "static/js/2.5e62a50e.chunk.js",
-    "static/css/main.5bb2c24d.chunk.css",
-    "static/js/main.a1e3f20f.chunk.js"
+    "static/css/main.bc81ad7c.chunk.css",
+    "static/js/main.e66fcfd8.chunk.js"
   ]
 }
