@@ -2,7 +2,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Sample react app to display workouts
 
-View [live demo here]()
+Sample react app that displays various workouts.
+
+View the live demo here: [https://maxshuty.github.io/react-workouts](https://maxshuty.github.io/react-workouts)
+
+# TODOs
+
+There are many TODO's in here for various things like a11y, tests, etc.
 
 # Create React App Info
 

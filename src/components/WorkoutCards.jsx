@@ -5,6 +5,7 @@ import Card from '../components/Card';
 const WorkoutCards = () => {
   const workouts = api.getWorkouts();
   // TODO: Max P - with this implementation and no additional functionality needed we could simply use CSS to achieve this...
+  // without making this work on focus it prevents accessibility, so I have this working on :focus as well as click
   const [activeCardId, setActiveCardId] = useState(-1);
 
   const handleClick = (id) => {

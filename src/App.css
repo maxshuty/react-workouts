@@ -43,14 +43,15 @@ body {
   border-radius: 4px;
   height: 250px;
   width: 100%;
-  max-width: 250px;
   border: none;
   overflow: hidden;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
+.card:focus,
 .card.active {
+  outline: none;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -64,11 +65,16 @@ body {
 }
 
 .card-info-container {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 0.5em;
 }
 
 .card-info-container > div:not(:first-child) {
-  padding: 0.5em 0 0 0;
+  top: -1em;
+  position: relative;
 }
 
 .card-info-series {
@@ -94,13 +100,8 @@ body {
   font-family: OpenSansBold;
 }
 
-.card-text-minor {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: OpenSansBold;
-}
-
 .card-workout-text {
+  margin: 0.5em 0;
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;
@@ -121,6 +122,7 @@ body {
 }
 
 .card-detail-container {
+  margin: 0.5em 0 0 0;
   display: flex;
   font-size: 12px;
   gap: 1em;
@@ -152,8 +154,8 @@ body {
 .card-view-details {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 16px;
-  font-family: OpenSansExtraBold;
+  font-size: 14px;
+  font-family: OpenSansBold;
   color: #3086e2;
 }
 
