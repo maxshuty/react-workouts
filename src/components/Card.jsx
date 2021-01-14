@@ -1,5 +1,6 @@
 import React from 'react';
 
+// TODO: Max P - split this into multiple components (cardHeader, cardBody, cardFooter, etc)
 const Card = ({ card, active, handleClick }) => {
   return (
     <div onClick={handleClick} className={`card ${active ? 'active' : ''}`} tabIndex="0">
