@@ -1,0 +1,162 @@
+/* TODO: Max P - convert to SASS/SCSS/LESS and create individual modules like a `Card.less` and consider using BEM */
+@font-face {
+  font-family: OpenSansRegular;
+  src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSansBold;
+  src: url(/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenSansExtraBold;
+  src: url(/fonts/OpenSans-ExtraBold.ttf);
+}
+
+body {
+  font-family: OpenSansRegular;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 100px;
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1em;
+}
+
+.card {
+  cursor: pointer;
+  color: #131313;
+  background: #fff;
+  border-radius: 4px;
+  height: 250px;
+  width: 100%;
+  max-width: 250px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.card.active {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-image-container {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-info-container {
+  padding: 0.5em;
+}
+
+.card-info-container > div:not(:first-child) {
+  padding: 0.5em 0 0 0;
+}
+
+.card-info-series {
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #131313;
+  opacity: 0.66;
+  width: 40%;
+  color: #fff;
+}
+
+.card-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-title {
+  font-size: 16px;
+  font-family: OpenSansBold;
+}
+
+.card-text-minor {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: OpenSansBold;
+}
+
+.card-workout-text {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-text-large {
+  font-size: 24px;
+  font-family: OpenSansExtraBold;
+}
+
+.card-text .card-trainer-image {
+  height: 25px;
+  width: 25px;
+}
+
+.card-trainer-image {
+  margin: 0 0 0 0.5em;
+}
+
+.card-detail-container {
+  display: flex;
+  font-size: 12px;
+  gap: 1em;
+}
+
+.card-detail-container img {
+  margin: 0 0.25em 0 0;
+}
+
+.card-detail-container div {
+  display: flex;
+  align-items: center;
+}
+
+.card-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.card-icon-distance {
+  transform: rotate(-45deg);
+}
+
+.card-icon-menu {
+  height: 20px;
+  width: 20px;
+}
+
+.card-view-details {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: OpenSansExtraBold;
+  color: #3086e2;
+}
+
+.card-view-details:active {
+  color: #2b67a7;
+}
