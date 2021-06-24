@@ -1,6 +1,6 @@
 # React app to display workouts
 
-A React app built to learn more about React. The app displays various workouts. This has no API but the frontend can be used to fetch some data and if it's shaped the same way the data in the [**`workoutApi.js`**](https://github.com/maxshuty/react-workouts/blob/master/src/api/workoutApi.js) is shaped then you'll have a frontend already built out for you!
+A UI built to display workouts. Note: there is no functionality built into this UI, it's simply a UI that could be built out to fit any use case for cards like the ones this has. This has no API but the frontend can be used to fetch some data and if it's shaped the same way the data in the [**`workoutApi.js`**](https://github.com/maxshuty/react-workouts/blob/master/src/api/workoutApi.js) is shaped then you'll have a frontend already built out for you!
 
 View the live demo [here](https://maxshuty.github.io/react-workouts)
 
