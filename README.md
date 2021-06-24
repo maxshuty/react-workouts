@@ -1,6 +1,6 @@
 # React app to display workouts
 
-Sample react app that displays various workouts. This has no API but the frontend can be used to fetch some data and if it's shaped the same way the data in the [**`workoutApi.js`**](https://github.com/maxshuty/react-workouts/blob/master/src/api/workoutApi.js) is shaped then you'll have a frontend already built out for you!
+A sample React app built to learn more about React. Displays various workouts. This has no API but the frontend can be used to fetch some data and if it's shaped the same way the data in the [**`workoutApi.js`**](https://github.com/maxshuty/react-workouts/blob/master/src/api/workoutApi.js) is shaped then you'll have a frontend already built out for you!
 
 View the live demo here: [https://maxshuty.github.io/react-workouts](https://maxshuty.github.io/react-workouts)
 
