@@ -6,7 +6,7 @@ View the live demo [here](https://maxshuty.github.io/react-workouts)
 
 # TODOs
 
-There are many TODO's in here for various things like adding accessibility, tests, etc.
+There are many TODO's in here for various things like adding more accessibility, tests, etc.
 
 # Create React App Info
 
